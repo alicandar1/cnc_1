@@ -1,7 +1,7 @@
 body 
 {
-  font-family: Impact, Charcoal, sans-serif;;
-  background: #ffcd29;
+  font-family: sans-serif;
+  background: #fcc921;
   transition: 0.1s;
   overflow:hidden;
 }
@@ -23,7 +23,7 @@ body
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    font-size: 80%;
+    font-size: 100%;
     width: 30%;
     text-align: center;
     border: 0;
