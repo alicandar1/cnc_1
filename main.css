@@ -3,13 +3,20 @@ body
     font-family: Impact, Charcoal, sans-serif;;
     background: #ffcd29;
     transition: 0.1s;
-   }
+    
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+}
    
    
 .welcome{
     
     position: absolute;
-    top: 30%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%,-50%);
     font-size: 230%;
@@ -23,6 +30,7 @@ body
     left: 50%;
     transform: translate(-50%,-50%);
     font-size: 80%;
+    width: 30%;
     text-align: center;
     border: 0;
     background: none;
@@ -71,14 +79,14 @@ body
   text-align: center;
   border: 2px solid #3498db;
   padding: 14px 10px;
-  width: 50%;
+  width: 75%;
   outline: none;
   color: white;
   border-radius: 24px;
   transition: 0.25s;
 }
 .box input[type="email"]:focus,.box input[type="password"]:focus{
-  width: 60%;
+  width: 90%;
   border-color: #2ecc71;
 }
 .box input[type="submit"]{
